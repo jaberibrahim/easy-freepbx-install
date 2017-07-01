@@ -12,7 +12,7 @@ Original Post: http://www.cameronbackus.com/2016/04/09/easy-install-freepbx-on-d
 ## Lets get started
 
 * First we need to clone/get the script found in github repo
-`wget https://raw.githubusercontent.com/lgg/doPBX/master/install_freepbx.sh`
+`wget https://raw.githubusercontent.com/lgg/easy-freepbx-install/master/install_freepbx.sh`
 * Next, run the script
 `sh install_freepbx.sh`
 * The Script will run for a bit, afterwards, choose your options for MariaDB - **DO NOT USE A ROOT PASSWORD**.
