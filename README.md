@@ -20,6 +20,18 @@ Original Post: http://www.cameronbackus.com/2016/04/09/easy-install-freepbx-on-d
 
 The script will then finish and you can browse to the FreePBX WebGUI using the droplet IP address.
 
+## Troubleshooting
+
+* MODULENAME tampered
+If you get such errors in FreePBX web interface:
+```
+MODULENAME tampered
+MODULENAME/file is wrong
+```
+run `fwconsole ma upgrade MODULENAME`
+also try
+`fwconsole a ma refreshsignatures`
+
 ## Credits
 
 * Original script belongs to [Cameron](https://github.com/cameronbackus/)
