@@ -27,6 +27,7 @@ If you get such errors in FreePBX web interface:
 ```
 MODULENAME tampered
 MODULENAME/file is wrong
+You have 1 tampered files Module: "FreePBX Framework"
 ```
 run `fwconsole ma upgrade MODULENAME`
 also try
